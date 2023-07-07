@@ -1,0 +1,66 @@
+header {
+  background-color: #7bc951ff;
+  padding: 20px;
+}
+
+.entrarButton {
+  display: block;
+  background-color: #eb8628ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto 50px;
+}
+
+.entrarButton:hover {
+  background-color: rgb(187, 103, 25);
+}
+
+.title {
+  composes: fontTitle from '../../css/fonts.module.css';
+  text-align: center;
+}
+
+.subTitle {
+  composes: fontTitle from '../../css/fonts.module.css';
+  text-align: center;
+}
+
+.nav_landing ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav_landing ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav_landing ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  width: 60%;
+  padding: 0 30px 20px;
+  text-align: justify;
+  margin: 0 auto 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+  section {
+    width: 90%;
+    padding: 0 5px 10px;
+  }
+}

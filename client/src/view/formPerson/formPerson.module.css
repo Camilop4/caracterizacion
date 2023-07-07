@@ -1,0 +1,24 @@
+.container_main {
+    composes: container_main from '../location/location.module.css';
+}
+
+.title {
+    composes: fontTitle from '../../css/fonts.module.css';
+    text-align: center;
+}
+
+.container_button {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.entrar_button {
+    composes: entrarButton from '../landing/landing.module.css';
+
+}
+
+@media screen and (min-width: 680px) {
+    .container_main {
+        width: 60%;
+    }
+}
